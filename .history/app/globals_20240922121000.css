@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .font-primary {
+    @apply font-primary; /* This will apply your custom JetBrains Mono font */
+  }
+}

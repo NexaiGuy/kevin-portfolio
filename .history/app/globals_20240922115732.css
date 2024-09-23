@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .font-primary {
+    @apply font-sans; /* or any custom font you want to use */
+  }
+}
+
+@layer base {
+  body {
+    @apply font-primary;
+  }
+}
+
