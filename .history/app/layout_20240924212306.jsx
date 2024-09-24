@@ -17,7 +17,7 @@ export const metadata = {
   description: "A Tech Developer Portfolio",
 
   icons: {
-    icon: "/assets/favicon.png",
+    icon: "/asse/favicon.png",
   },
 };
 

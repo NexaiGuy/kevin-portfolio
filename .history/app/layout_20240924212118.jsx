@@ -13,11 +13,11 @@ const JetBrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "Portfolio Kevin Blancaflor",
-  description: "A Tech Developer Portfolio",
-
+  title: "Kevin Blancf",
+  description: "A Frontend Developer Portfolio",
+  //line 5 to 8 is only addition to make in layout.js
   icons: {
-    icon: "/assets/favicon.png",
+    icon: "/favicon/favicon.png",
   },
 };
 
