@@ -46,7 +46,7 @@ const projects = [
     description: 'Portfolio made with Next.js & Tailwind.',
     stack: [{ name: 'Next.js' }, { name: 'Tailwind.css' }],
     image: '/assets/work/thumb3.png',
-    live: 'https://portfolio-kevin-blancaflor.netlify.app',
+    live: 'https://portfolio-kevin-blancaflor.netlify.app'  ,
     github: '',
   },
 ];
