@@ -8,28 +8,28 @@ const services = [
     num: "01", 
     title: "Web Development",
     description: 
-      "Voluptate dolor eiusmod laborum minim eu in laboris sit.",
+      "Crafting Dynamic, Scalable, and Secure Web Solutions",
     href: "",  
   },
   {
     num: "02", 
     title: "UI/UX Design",
     description: 
-      "Voluptate dolor eiusmod laborum minim eu in laboris sit.",
+      "Designing Intuitive Interfaces for Enhanced User Engagement",
     href: "",  
   },
   {
     num: "03", 
     title: "Logo Design",
     description: 
-      "Voluptate dolor eiusmod laborum minim eu in laboris sit.",
+      "Creating Memorable Logos That Resonate with Your Brand",
     href: "",  
   },
   {
     num: "04", 
     title: "SEO",
     description: 
-      "Voluptate dolor eiusmod laborum minim eu in laboris sit.",
+      "Optimizing for Better Visibility and Increased Traffic",
     href: "",  
   },
 ];

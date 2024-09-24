@@ -11,81 +11,41 @@ import {
 
 import { SiTailwindcss, SiNextdotjs } from 'react-icons/si';
 
-// about data
-const about = {
-  title: 'About me',
-  description: "Ullamco veniam elit ad duis Lorem est aliquip deserunt voluptate.",
-  info: [
-    {
-      fieldName: "Name",
-      fieldValue: "Kevin Blancaflor"
-    },
-    {
-      fieldName: "Phone",
-      fieldValue: "(+32) 489 206 638"
-    },
-    {
-      fieldName: "Experience",
-      fieldValue: "7+ Years"
-    },
-    {
-      fieldName: "Discord",
-      fieldValue: "sl1ckn3ssr3pr3s3nt#8061"
-    },
-    {
-      fieldName: "Nationality",
-      fieldValue: "Belgian"
-    },
-    {
-      fieldName: "Email",
-      fieldValue: "blancaflorkevin@gmail.com"
-    },
-    {
-      fieldName: "Freelance",
-      fieldValue: "Available"
-    },
-    {
-      fieldName: "Languages",
-      fieldValue: "English, Dutch, German, French"
-    },
-  ]
-}
-
 // experience data
 const experience = {
   icon: '/assets/resume/badge.svg',
   title: 'My experience',
-  description: "Incididunt pariatur mollit ipsum esse veniam quis enim qui mollit aliqua esse officia.",
+  description: "Bringing Expertise and Innovation to Every Project With years of hands-on experience across a variety of technologies, I have developed a deep understanding of web development, UI/UX design, and digital branding.",
   items: [
     {
-      company: "Tech Solutions Inc.",
+      company: "Nex AI",
       position: "Full Stack Developer",
+      duration: "2021 - Present",
+    },
+    {
+      company: "Bikera- Web3 Startup",
+      position: "CTO Intern",
       duration: "2018 - Present",
     },
     {
-      company: "Web Design Studio",
-      position: "Front-End Developer Intern",
-      duration: "Summer 2021",
+      company: "Bikera",
+      position: "Junior Developer Intern",
+      duration: "Summer 2018 - Present",
     },
     {
-      company: "E-commerce Startup",
-      position: "Freelance Web Developer",
-      duration: "2020 - 2021",
+      company: "Future Finance",
+      position: "Teaching Assistent - Python",
+      duration: "2021 - Present",
     },
     {
-      company: "Tech Academy",
-      position: "Teaching Assistent",
-      duration: "2019 - 2020",
-    },
-    {
-      company: "Digital Agency",
+      company: "Nex AI",
       position: "UI/UX Designer",
-      duration: "2018 - 2019",
+      duration: "2018 - Present",
     },
     {
-      company: "Software Development Firm",
+      company: "Social Metic",
       position: "Junior Developer",
-      duration: "2017 - 2018",
+      duration: "2021 - Present",
     },
   ],
 };
@@ -94,37 +54,47 @@ const experience = {
 const education = {
   icon: '/assets/resume/cap.svg',
   title: 'My education',
-  description: "Incididunt pariatur mollit ipsum esse veniam quis enim qui mollit aliqua esse officia.",
+  description: "Throughout my educational journey, I have pursued a deep passion for both web development and blockchain technology, continuously honing my skills across multiple disciplines.",
   items: [
-    {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development Bootcamp",
-      duration: "2023",
-    },
     {
       institution: "Codecademy",
       degree: "Front-end Track",
-      duration: "2022",
+      duration: "2016",
     },
     {
-      institution: "Online Course",
-      degree: "Programming Course",
-      duration: "2020 - 2021",
+      institution: "DesignCode",
+      degree: "Build a web app with React Hooks",
+      duration: "2016 - 2018",
     },
     {
-      institution: "Tech Institute",
-      degree: "Certified Web Developer",
+      institution: "DesignCode",
+      degree: "React for Designers",
+      duration: "2016 - 2018",
+    },
+    {
+      institution: "Udemy",
+      degree: "Stellar Blockchain Tutorial",
       duration: "2019",
     },
     {
-      institution: "Design School",
-      degree: "Diploma in Graphic Design",
-      duration: "2016- 2018",
+      institution: "Udemy",
+      degree: "Proof Of Stake Blockchain",
+      duration: "2019",
     },
     {
-      institution: "Community College",
-      degree: "Associate Degree in Computer Science",
-      duration: "2014 - 2016",
+      institution: "Moralis",
+      degree: "Cryptocurrency Projects",
+      duration: "2016 - Present",
+    },
+    {
+      institution: "JavaScript Mastery - Youtube",
+      degree: "Full Stack React Native App",
+      duration: "2024",
+    },
+    {
+      institution: "JimDublace - Youtube",
+      degree: "UE5 - Game Development Basics",
+      duration: "2024",
     },
   ],
 };
@@ -132,7 +102,9 @@ const education = {
 // skills data
 const skills = {
   title: "My Skills",
-  description: "Est do cillum magna irure cupidatat ut laborum ipsum.",
+  description: "Web Development: Proficient in building responsive, dynamic web applications.UI/UX Design: Skilled in creating user-friendly interfaces and seamless user experiences.",
+  description2: "Back-end Development: Experienced in handling server-side logic and database integration.",
+  description3: "Styling Frameworks: Expertise in utilizing advanced styling techniques for efficient and scalable design.",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -165,6 +137,46 @@ const skills = {
     {
       icon: <FaFigma />,
       name: "figma",
+    },
+  ]
+}
+
+// about data
+const about = {
+  title: 'About me',
+  description: "Feel free to reach out to me for any inquiries or collaborations.",
+  info: [
+    {
+      fieldName: "Name",
+      fieldValue: "Kevin Blancaflor"
+    },
+    {
+      fieldName: "Phone",
+      fieldValue: "(+32) 489 206 638"
+    },
+    {
+      fieldName: "Experience",
+      fieldValue: "7+ Years"
+    },
+    {
+      fieldName: "Discord",
+      fieldValue: "sl1ckn3ssr3pr3s3nt#8061"
+    },
+    {
+      fieldName: "Nationality",
+      fieldValue: "Belgian"
+    },
+    {
+      fieldName: "Email",
+      fieldValue: "blancaflorkevin@gmail.com"
+    },
+    {
+      fieldName: "Freelance",
+      fieldValue: "Available"
+    },
+    {
+      fieldName: "Languages",
+      fieldValue: "English, Dutch, German, French"
     },
   ]
 }
@@ -268,8 +280,11 @@ const Resume = () => {
                 <div className="flex flex-col gap-[30px] text-center xl:text-left">
                   <h3 className="text-4xl font-bold">{skills.title}</h3>
                   <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{skills.description}</p>
+                  <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{skills.description2}</p>
+                  <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{skills.description3}</p>
                 </div>
               </div>
+              <br />
               <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:gap-[30px]">
                 {skills.skillList.map((skill, index)=> {
                   return ( <li key={index}>
