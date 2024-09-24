@@ -26,7 +26,7 @@ export const metadata = {
     url: "https://your-portfolio-url.com", // Add your portfolio URL
     images: [
       {
-        url: "/assets/work/thumb3.png", // The image path for social media previews
+        url: "/assets/og-image.png", // The image path for social media previews
         width: 800,
         height: 600,
         alt: "Portfolio Preview",

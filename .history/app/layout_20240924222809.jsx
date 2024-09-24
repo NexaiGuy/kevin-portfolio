@@ -26,12 +26,19 @@ export const metadata = {
     url: "https://your-portfolio-url.com", // Add your portfolio URL
     images: [
       {
-        url: "/assets/work/thumb3.png", // The image path for social media previews
+        url: "/assets/og-image.png", // The image path for social media previews
         width: 800,
         height: 600,
         alt: "Portfolio Preview",
       },
     ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Portfolio Kevin Blancaflor",
+    description: "A Tech Developer Portfolio",
+    images: ["/assets/twitter-image.png"], // The image path for Twitter preview
   },
 };
 
