@@ -35,6 +35,7 @@ export const metadata = {
   },
 };
 
+const 
 
 export default function RootLayout({ children }) {
   return (

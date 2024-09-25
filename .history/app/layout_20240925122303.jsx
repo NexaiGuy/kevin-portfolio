@@ -35,6 +35,7 @@ export const metadata = {
   },
 };
 
+const html = styled.div``
 
 export default function RootLayout({ children }) {
   return (

@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
 import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -60,25 +60,26 @@ const Work = () => {
   };
 
   return (
-    <motion.section initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 2.4, duration: 0.4, ease: "easeIn" }, 
-      }} 
+    <motion.section 
+      initial={{ opacity: 0 }} 
+      animate={{ opacity: 1, transition: { delay: 2.4, duration: 0.4, ease: "easeIn" }}} 
       className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0"
     >
-      <div className="container mx-auto">
+      <div className="container mx-auto px-1 md:px-0">
         <div className="flex flex-col xl:flex-row xl:gap-[30px]">
           {/* Project details */}
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
             <div className="flex flex-col gap-[30px] h-[50%]">
-              <div className="text-8xl leading-none font-extrabold text-transparent text-outline">
+              <div className="text-6xl md:text-8xl leading-none font-extrabold text-transparent text-outline">
                 {project.num}
               </div>
-              <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
+              <h2 className="text-[32px] md:text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
                 {project.category} project
               </h2>
-              <p className="text-white/60">{project.description}</p>
-              <ul className='flex gap-4'>
+              <p className="text-white/60 text-sm md:text-base">{project.description}</p>
+              <ul className='flex gap-2 flex-wrap text-sm'>
                 {project.stack.map((item, index) => (
-                  <li key={index} className="text-xl text-accent">
+                  <li key={index} className="text-accent">
                     {item.name}
                     {index !== project.stack.length - 1 && ","}
                   </li>
@@ -88,11 +89,11 @@ const Work = () => {
               <div className="flex items-center gap-4">
                 {/* live project button */}
                 {project.live && (
-                  <Link href={project.live}>
+                  <Link href={project.live} passHref>
                     <TooltipProvider delayDuration={100}>
                       <Tooltip>
-                        <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
-                          <BsArrowUpRight className="text-white text-3xl group-hover:text-accent" />
+                        <TooltipTrigger className="w-[50px] h-[50px] md:w-[70px] md:h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
+                          <BsArrowUpRight className="text-white text-2xl md:text-3xl group-hover:text-accent" />
                         </TooltipTrigger>
                         <TooltipContent>
                           <p>Live project</p>
@@ -103,11 +104,11 @@ const Work = () => {
                 )}
                 {/* github project button */}
                 {project.github && (
-                  <Link href={project.github}>
+                  <Link href={project.github} passHref>
                     <TooltipProvider delayDuration={100}>
                       <Tooltip>
-                        <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
-                          <BsGithub className="text-white text-3xl group-hover:text-accent" />
+                        <TooltipTrigger className="w-[50px] h-[50px] md:w-[70px] md:h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
+                          <BsGithub className="text-white text-2xl md:text-3xl group-hover:text-accent" />
                         </TooltipTrigger>
                         <TooltipContent>
                           <p>Github repository</p>
@@ -123,15 +124,15 @@ const Work = () => {
           {/* Swiper slider */}
           <div className="w-full xl:w-[50%]">
             <Swiper
-              spaceBetween={30}
+              spaceBetween={10} // Adjusted for mobile
               slidesPerView={1}
-              className="xl:h-[520px] mb-12"
+              className="h-[320px] md:h-[520px] mb-12"
               onSlideChange={handleSlideChange}
             >
               {projects.map((project, index) => {
                 return (
                   <SwiperSlide key={index} className="w-full">
-                    <div className="h-[460px] relative group flex justify-center items-center bg-pink-50/20">
+                    <div className="h-[300px] md:h-[460px] relative group flex justify-center items-center bg-pink-50/20">
                     {/* overlay */}
                     <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
                     {/* image */}
@@ -158,4 +159,3 @@ const Work = () => {
 };
 
 export default Work;
-

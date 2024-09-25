@@ -159,3 +159,4 @@ const Work = () => {
 
 export default Work;
 
+const Swiper = styl

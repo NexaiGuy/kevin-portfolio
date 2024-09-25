@@ -35,6 +35,9 @@ export const metadata = {
   },
 };
 
+const html = styled.div`
+  overflow: hid;
+`
 
 export default function RootLayout({ children }) {
   return (

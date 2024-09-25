@@ -159,3 +159,7 @@ const Work = () => {
 
 export default Work;
 
+const Swiper = styled.div`
+  height: auto;
+  max-height: 100vh;
+`

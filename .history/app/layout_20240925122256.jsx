@@ -35,6 +35,7 @@ export const metadata = {
   },
 };
 
+const html = StylePropertyMapReadOnly.
 
 export default function RootLayout({ children }) {
   return (
