@@ -52,11 +52,11 @@ const projects = [
   {
     num: '04',
     category: 'frontend',
-    title: 'project 4',
-    description: 'Apple Iphone Website Replica with Next.js',
-    stack: [{ name: 'Next.js' }],
-    image: '/assets/work/thumb4.png',
-    live: 'https://4pple-from-scratch.netlify.app/',
+    title: 'project 3',
+    description: 'Apple Iphone Website Replica - ',
+    stack: [{ name: 'Next.js' }, { name: 'Tailwind.css' }],
+    image: '/assets/work/thumb3.png',
+    live: '',
     github: '',
   },
 ];

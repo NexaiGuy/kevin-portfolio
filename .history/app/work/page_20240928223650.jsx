@@ -56,7 +56,7 @@ const projects = [
     description: 'Apple Iphone Website Replica with Next.js',
     stack: [{ name: 'Next.js' }],
     image: '/assets/work/thumb4.png',
-    live: 'https://4pple-from-scratch.netlify.app/',
+    live: '',
     github: '',
   },
 ];
