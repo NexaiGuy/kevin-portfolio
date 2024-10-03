@@ -37,7 +37,7 @@ const Photo = () => {
 
         {/* Rotating SVG circle */}
         <motion.svg
-          className="absolute w-[286px] h-[286px] xl:w-[414px] xl:h-[414px]"
+          className="absolute w-[286px] h-[286px] xl:w-[416px] xl:h-[416px]"
           fill="transparent"
           viewBox="0 0 506 506"
           xmlns="http://www.w3.org/2000/svg"

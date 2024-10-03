@@ -6,14 +6,12 @@ import Image from "next/image";
 const Photo = () => {
   return (
     <div className="w-full h-full flex items-center justify-center relative">
-      {/* Animated Container */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{
           opacity: 1,
           transition: { delay: 1.4, ease: "easeInOut" },
         }}
-        className="relative flex items-center justify-center"
       >
         {/* Image inside the circle */}
         <motion.div
@@ -22,30 +20,30 @@ const Photo = () => {
             opacity: 1,
             transition: { delay: 1, ease: "easeIn" },
           }}
-          className="relative w-[250px] h-[250px] xl:w-[360px] xl:h-[360px] rounded-full overflow-hidden"
+          className="w-[320px] h-[320px] xl:w-[420px] xl:h-[420px] mix-blend-lighten relative rounded-full overflow-hidden"
         >
-          {/* The image is positioned in the center and contained within the circle */}
           <Image
             src="/assets/photo.png"
-            alt="Profile Photo"
             priority
             quality={100}
-            fill
-            className="object-cover" // Ensures the image fills the container while maintaining its aspect ratio
+            alt=""
+            layout="fill"
+            className="object-cover"
+            style={{ objectPosition: 'center' }} // Ensures the image stays centered
           />
         </motion.div>
 
-        {/* Rotating SVG circle */}
+        {/* Rotating circle */}
         <motion.svg
-          className="absolute w-[286px] h-[286px] xl:w-[414px] xl:h-[414px]"
+          className="absolute inset-0 w-[320px] h-[320px] xl:w-[450px] xl:h-[450px]"
           fill="transparent"
           viewBox="0 0 506 506"
-          xmlns="http://www.w3.org/2000/svg"
+          xlms="http://www.w3.org/2000/svg"
         >
           <motion.circle
-            cx="253"
-            cy="253"
-            r="220"
+            cx="2"
+            cy="260"
+            r="230"
             stroke="#00FF99"
             strokeWidth="4"
             strokeLinecap="round"

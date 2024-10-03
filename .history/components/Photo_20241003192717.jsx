@@ -22,7 +22,7 @@ const Photo = () => {
             opacity: 1,
             transition: { delay: 1, ease: "easeIn" },
           }}
-          className="relative w-[250px] h-[250px] xl:w-[360px] xl:h-[360px] rounded-full overflow-hidden"
+          className="relative w-[320px] h-[320px] xl:w-[450px] xl:h-[450px] rounded-full overflow-hidden"
         >
           {/* The image is positioned in the center and contained within the circle */}
           <Image
@@ -37,9 +37,9 @@ const Photo = () => {
 
         {/* Rotating SVG circle */}
         <motion.svg
-          className="absolute w-[286px] h-[286px] xl:w-[414px] xl:h-[414px]"
+          className="absolute w-[320px] h-[320px] xl:w-[450px] xl:h-[450px]"
           fill="transparent"
-          viewBox="0 0 506 506"
+          viewBox="0 0 510 510"
           xmlns="http://www.w3.org/2000/svg"
         >
           <motion.circle
