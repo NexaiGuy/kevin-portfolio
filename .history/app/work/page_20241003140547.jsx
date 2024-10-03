@@ -66,7 +66,7 @@ const projects = [
     description: 'Nex AI | Official Website | React Gatsby',
     stack: [{ name: 'React.js' }],
     image: '/assets/work/thumb5.png',
-    live: 'https://nex-4i.netlify.app/',
+    live: 'https://4pple-from-scratch.netlify.app/',
     github: '',
   },
 ];
