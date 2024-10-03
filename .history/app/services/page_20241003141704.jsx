@@ -23,14 +23,14 @@ const services = [
     title: "Logo Design",
     description: 
       "Creating Memorable Logos That Resonate with Your Brand",
-    href: "contact",  
+    href: "",  
   },
   {
     num: "04", 
     title: "SEO",
     description: 
       "Optimizing for Better Visibility and Increased Traffic",
-    href: "contact",  
+    href: "",  
   },
 ];
 

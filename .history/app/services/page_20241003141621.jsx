@@ -16,21 +16,21 @@ const services = [
     title: "UI/UX Design",
     description: 
       "Designing Intuitive Interfaces for Enhanced User Engagement",
-    href: "contact",  
+    href: "",  
   },
   {
     num: "03", 
     title: "Logo Design",
     description: 
       "Creating Memorable Logos That Resonate with Your Brand",
-    href: "contact",  
+    href: "",  
   },
   {
     num: "04", 
     title: "SEO",
     description: 
       "Optimizing for Better Visibility and Increased Traffic",
-    href: "contact",  
+    href: "",  
   },
 ];
 

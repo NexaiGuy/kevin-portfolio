@@ -30,7 +30,7 @@ const services = [
     title: "SEO",
     description: 
       "Optimizing for Better Visibility and Increased Traffic",
-    href: "contact",  
+    href: "",  
   },
 ];
 
