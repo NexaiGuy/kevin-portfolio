@@ -21,7 +21,7 @@ const Photo = () => {
           transition: {delay: 1, ease: "easeIn" },
         }}
         
-        className="w-[320px] h-[320px] xl:w-[525px] xl:h-[525px] mix-blend-lighten absolute rounded-full overflow-hidden">
+        className="w-[30px] h-[320px] xl:w-[525px] xl:h-[525px] mix-blend-lighten absolute rounded-full overflow-hidden">
             <Image 
               src="/assets/photo.png" 
               priority quality={100} 
@@ -41,7 +41,7 @@ const Photo = () => {
           <motion.circle 
             cx="260" 
             cy="255" 
-            r="241" 
+            r="250" 
             stroke="#00FF99"
             strokeWidth="4"
             strokeLinecap="round"

@@ -39,9 +39,9 @@ const Photo = () => {
           xlms="http://www.w3.org/2000/svg"
         >
           <motion.circle 
-            cx="260" 
+            cx="250" 
             cy="255" 
-            r="241" 
+            r="250" 
             stroke="#00FF99"
             strokeWidth="4"
             strokeLinecap="round"
