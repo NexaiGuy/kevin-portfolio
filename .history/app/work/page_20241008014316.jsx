@@ -83,7 +83,7 @@ const projects = [
     num: '07',
     category: 'Server Domain Management',
     title: 'project 7',
-    description: 'Scav-It | Full Domain Management',
+    description: 'Scav-It | FuDomain Management',
     stack: [{ name: '' }],
     image: '/assets/work/thumb7.png',
     live: '',
