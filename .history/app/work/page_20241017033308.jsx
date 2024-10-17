@@ -95,8 +95,8 @@ const projects = [
     title: 'project 8',
     description: 'Azoth Labs | Crypto Fundraising Agency',
     stack: [{ name: '' }],
-    image: '/assets/work/thumb8.png',
-    live: 'https://azoth-labs.netlify.app/',
+    image: '/assets/work/thumb.png',
+    live: '',
     github: '',
   },
 ];

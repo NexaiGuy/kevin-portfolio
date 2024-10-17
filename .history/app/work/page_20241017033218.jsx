@@ -93,10 +93,10 @@ const projects = [
     num: '08',
     category: 'frontend',
     title: 'project 8',
-    description: 'Azoth Labs | Crypto Fundraising Agency',
+    description: 'Azoth Labs | ',
     stack: [{ name: '' }],
-    image: '/assets/work/thumb8.png',
-    live: 'https://azoth-labs.netlify.app/',
+    image: '/assets/work/thumb7.png',
+    live: '',
     github: '',
   },
 ];
